@@ -1,4 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
-    background-color: #eeeeee;
-    color: #222;
+  background-color: #222222;
+  color: #ffffff;
+  
   }
+  div p{
+    color: yellowgreen;
+  }
+
+  p.p-3{     /* 0,0,1,1*/
+    color: red;
+  }
+  .p-3{  /* 0,0,1,0*/
+    color: #ffffff;
+  }
+ 
+  
+/*
+  p::before{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color:yellow ;
+  }*/
+  li:nth-child(4) p{
+color:#dd3322 ;
+  }
+
+  h1 , p{
+    font-family: monospace;
+  }
+
+ 
+
+  
+
+  #my-list{
+    color: purple;
+  }
+
+  img[src="logo.png"]{
+    width: 100px;
+    height: 200px;
+  }
+
+  
+  
+
+
+
