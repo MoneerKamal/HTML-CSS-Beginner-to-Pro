@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header,footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 30px;
+}
+footer{
+    padding: 0 30px;
+    background-color: #f2f2f2;
+}
+
+header a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.938em;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+    color: gray;
+  }
+  .right_nav,.left_nav {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    
+  }
+  
+  .right_nav .header_apps {
+    margin-right: 10px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  main img{
+    object-fit: contain;
+    height: 100px;
+  }
+
+  .search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 2.5rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width:70vw;
+    margin: 10px auto;
+    max-width: 560px;
+
+  }
+  .search_input input{
+    flex: 1;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding: 2px 20px;
+    color: #222;
+    border:none ;
+    outline: none;
+  }
+  .search_input .material-icons {
+    color: gray;
+  }
+  .search_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 20px;
+  }
+  .search_buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    padding: 0 1rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+  .search_buttons button:hover{
+    border-color: #dfe1e5;
+    box-shadow: 0px 0px 2px 0px #383737;
+  }
+  
+  .right_nav ol,.left_nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+  }
+  ul li a,ol li a{
+    text-decoration: none;
+    padding: 0 12px;
+    display: inline-block;
+    line-height: 2.5rem;
+    color: #5f6368;;
+  }
+  ul li a:hover,ol li a:hover{
+    text-decoration: underline;
+  }
+  .wrapper{
+    min-height: 100vh;
+    margin-bottom: -40px;
+  }
+
+/* a {
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:focus {
+}
+
+a:hover {
+}
+
+a:active {
+} */
+
