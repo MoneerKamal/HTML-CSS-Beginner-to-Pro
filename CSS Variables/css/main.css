@@ -18,7 +18,7 @@
 
 @media(prefers-color-scheme: dark){
   :root{
-    --BGCOLOR: hsl(263, 55%, 52%);;
+    --BGCOLOR: hsl(263, 55%, 52%);
     --SHADOW-COLOR:rgba(17,12,46,0.15);
     --shadows:0px 8px 100px 0px var(--SHADOW-COLOR);
   }
